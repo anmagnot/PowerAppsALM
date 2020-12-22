@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.25851" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>GitHubALMLab</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="🧬GitHubALMLab" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>microsofttsp</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft TSP" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msft</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>29960</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msdyn_timeoffrequest" behavior="0" />
+      <RootComponent type="62" schemaName="msft_TimeOffRequests" behavior="0" />
+      <RootComponent type="80" schemaName="msft_TimeOffRequests" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="msdyn_timeentry" displayName="Time Entry" solution="msdyn_TESA (1.1.0.7)" />
+        <Dependent key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="2" type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="3" type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="4" type="2" schemaName="owneridname" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="5" type="2" schemaName="modifiedbyname" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="6" type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="7" type="2" schemaName="modifiedbyyominame" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="8" type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="9" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="10" type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="11" type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="12" type="2" schemaName="statecodename" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="13" type="2" schemaName="createdbyname" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="14" type="2" schemaName="createdonbehalfbyname" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="15" type="2" schemaName="owneridtype" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="16" type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="17" type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="18" type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="19" type="2" schemaName="owneriddsc" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="20" type="2" schemaName="owneridyominame" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="21" type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="22" type="2" schemaName="msdyn_resourcename" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="FieldService (8.8.0.88)" />
+        <Dependent key="22" type="2" schemaName="msdyn_resourcename" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="24" type="2" schemaName="statuscodename" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="25" type="2" schemaName="msdyn_approvedbyyominame" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="10" schemaName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" displayName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" parentSchemaName="systemuser" parentDisplayName="User" solution="FieldService (8.8.0.88)" />
+        <Dependent key="25" type="2" schemaName="msdyn_approvedbyyominame" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="27" type="2" schemaName="createdbyyominame" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="28" type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="29" type="2" schemaName="msdyn_approvedbyname" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="10" schemaName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" displayName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" parentSchemaName="systemuser" parentDisplayName="User" solution="FieldService (8.8.0.88)" />
+        <Dependent key="29" type="2" schemaName="msdyn_approvedbyname" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="23" type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="23" type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="2" schemaName="bookableresourceid" displayName="Bookable Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="23" type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="2" schemaName="name" displayName="Name" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="23" type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="2" schemaName="msdyn_resource" displayName="Resource" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="23" type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="FieldService (8.8.0.88)" />
+        <Dependent key="23" type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="26" type="10" schemaName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" displayName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" parentSchemaName="systemuser" parentDisplayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="2" schemaName="msdyn_approvedby" displayName="Approved by" parentSchemaName="msdyn_timeoffrequest" parentDisplayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="26" type="10" schemaName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" displayName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" parentSchemaName="systemuser" parentDisplayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="10" schemaName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" displayName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" parentSchemaName="systemuser" parentDisplayName="User" solution="FieldService (8.8.0.88)" />
+        <Dependent key="26" type="10" schemaName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" displayName="msdyn_systemuser_msdyn_timeoffrequest_Approvedby" parentSchemaName="systemuser" parentDisplayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="35" type="80" schemaName="msft_TimeOffRequests" displayName="⌚Time Off Requests" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="35" type="80" schemaName="msft_TimeOffRequests" displayName="⌚Time Off Requests" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
+        <Dependent key="37" type="62" schemaName="msft_TimeOffRequests" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="61" schemaName="msdyn_/Icons/SVG/TimeOffRequest.svg" displayName="msdyn_/Icons/SVG/TimeOffRequest.svg" solution="FieldService (8.8.0.88)" />
+        <Dependent key="37" type="62" schemaName="msft_TimeOffRequests" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
